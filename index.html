@@ -24,7 +24,8 @@
   </header>
 
   <!-- Hero -->
-  <section id="home" class="h-screen flex items-center justify-center bg-cover bg-center text-white relative" style="background-image: url('https://source.unsplash.com/1600x900/?travel,beach');">
+  <section id="home" class="h-screen flex items-center justify-center bg-cover bg-center text-white relative" 
+    style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80');">
     <div class="absolute inset-0 bg-black opacity-50"></div>
     <div class="relative text-center p-6" data-aos="fade-up">
       <h2 class="text-5xl font-bold mb-4">Discover Your Next Adventure</h2>
@@ -45,24 +46,24 @@
   <section id="packages" class="py-20 bg-gradient-to-r from-blue-50 to-blue-100">
     <h2 class="text-3xl font-bold text-center mb-12 text-blue-700" data-aos="fade-up">Our Packages</h2>
     <div class="grid md:grid-cols-3 gap-8 container mx-auto px-6">
-      <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition" data-aos="zoom-in">
-        <img src="https://source.unsplash.com/400x250/?paris" alt="Paris" class="w-full h-52 object-cover">
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 hover:shadow-2xl transition" data-aos="flip-left">
+        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80" alt="Paris" class="w-full h-52 object-cover">
         <div class="p-6">
           <h3 class="text-xl font-bold mb-2">Paris Getaway</h3>
           <p class="text-gray-600 mb-4">Romantic trip to the city of love with guided tours and luxury hotels.</p>
           <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Book Now</button>
         </div>
       </div>
-      <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition" data-aos="zoom-in" data-aos-delay="150">
-        <img src="https://source.unsplash.com/400x250/?bali" alt="Bali" class="w-full h-52 object-cover">
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 hover:shadow-2xl transition" data-aos="flip-left" data-aos-delay="150">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Bali" class="w-full h-52 object-cover">
         <div class="p-6">
           <h3 class="text-xl font-bold mb-2">Bali Adventure</h3>
           <p class="text-gray-600 mb-4">Enjoy beaches, temples, and local culture in Bali.</p>
           <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Book Now</button>
         </div>
       </div>
-      <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition" data-aos="zoom-in" data-aos-delay="300">
-        <img src="https://source.unsplash.com/400x250/?newyork" alt="New York" class="w-full h-52 object-cover">
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 hover:shadow-2xl transition" data-aos="flip-left" data-aos-delay="300">
+        <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80" alt="New York" class="w-full h-52 object-cover">
         <div class="p-6">
           <h3 class="text-xl font-bold mb-2">New York Experience</h3>
           <p class="text-gray-600 mb-4">Discover the city that never sleeps with our exclusive package.</p>
@@ -76,27 +77,36 @@
   <section class="py-20 bg-white">
     <h2 class="text-3xl font-bold text-center mb-12 text-blue-700" data-aos="fade-up">What Our Clients Say</h2>
     <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 px-6">
-      <div class="bg-gray-50 p-6 rounded-lg shadow" data-aos="fade-right">
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-xl transition" data-aos="fade-right">
         <p class="text-gray-600 mb-4">“TravelX made our honeymoon unforgettable! Everything was perfectly planned.”</p>
-        <h4 class="font-bold">– Sarah & James</h4>
+        <div class="flex items-center gap-4">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah" class="w-12 h-12 rounded-full">
+          <h4 class="font-bold">– Sarah & James</h4>
+        </div>
       </div>
-      <div class="bg-gray-50 p-6 rounded-lg shadow" data-aos="fade-left">
+      <div class="bg-gray-50 p-6 rounded-lg shadow hover:shadow-xl transition" data-aos="fade-left">
         <p class="text-gray-600 mb-4">“Best travel agency ever! I’ll book all my trips with them.”</p>
-        <h4 class="font-bold">– Michael D.</h4>
+        <div class="flex items-center gap-4">
+          <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="Michael" class="w-12 h-12 rounded-full">
+          <h4 class="font-bold">– Michael D.</h4>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="py-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white text-center">
-    <h2 class="text-3xl font-bold mb-6">Contact Us</h2>
-    <p class="mb-6">Plan your next trip with us today!</p>
-    <form class="max-w-md mx-auto space-y-4" data-aos="fade-up">
-      <input type="text" placeholder="Your Name" class="w-full p-3 rounded text-gray-800" required>
-      <input type="email" placeholder="Your Email" class="w-full p-3 rounded text-gray-800" required>
-      <textarea placeholder="Your Message" class="w-full p-3 rounded text-gray-800" required></textarea>
-      <button type="submit" class="w-full bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold py-3 rounded">Send Message</button>
-    </form>
+  <section id="contact" class="relative py-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white text-center">
+    <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/world-map.png')] opacity-10"></div>
+    <div class="relative z-10">
+      <h2 class="text-3xl font-bold mb-6">Contact Us</h2>
+      <p class="mb-6">Plan your next trip with us today!</p>
+      <form class="max-w-md mx-auto space-y-4" data-aos="fade-up">
+        <input type="text" placeholder="Your Name" class="w-full p-3 rounded text-gray-800" required>
+        <input type="email" placeholder="Your Email" class="w-full p-3 rounded text-gray-800" required>
+        <textarea placeholder="Your Message" class="w-full p-3 rounded text-gray-800" required></textarea>
+        <button type="submit" class="w-full bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold py-3 rounded">Send Message</button>
+      </form>
+    </div>
   </section>
 
   <!-- Footer -->
